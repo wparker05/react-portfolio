@@ -25,4 +25,4 @@
 
 ## Link
 
-[Portfolio](https://wparker05.github.io/wesley-rogers-portfolio/)
+[Portfolio](http://wparker05.github.io/react-portfolio)
