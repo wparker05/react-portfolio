@@ -13,18 +13,18 @@ export default function Navbar({ currentPage, handlePageChange }) {
    return ( 
        <div style={header}>
            <h1 className=''>Wesley Rogers</h1>
-   <ul className="nav nav-tabs flex-row" >
+   <ul className="nav " >
         <li className="nav-item">
-            <a href='#about' onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
+            <a href='#about' onClick={() => handlePageChange('About')} className='navbar'>About</a>
         </li>
         <li className="nav-item">
-            <a href='#portfolio' onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
+            <a href='#portfolio' onClick={() => handlePageChange('Portfolio')} className='navbar'>Portfolio</a>
         </li>
         <li className="nav-item">
-            <a href='#contact' onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
+            <a href='#contact' onClick={() => handlePageChange('Contact')} className='navbar'>Contact</a>
         </li>
         <li className="nav-item">
-            <a href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
+            <a href="#resume" onClick={() => handlePageChange('Resume')} className='navbar'>Resume</a>
         </li>
     </ul>
     </div>

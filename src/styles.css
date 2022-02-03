@@ -1,0 +1,10 @@
+.navbar {
+    color: #DDD8C4;
+    text-decoration : none;
+    padding : 0 15px;
+}
+
+.navbar:active {
+    background-color: #DDD8C4;
+    color: #69A297;
+}

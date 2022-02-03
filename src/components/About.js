@@ -7,7 +7,7 @@ const picture = {
 }
 export default function About() {
   return (
-    <div className="container">
+    <div className="container ">
       <h2>About me</h2>
 
       <img style={picture} src={port} alt="picture of Wesley Rogers" />

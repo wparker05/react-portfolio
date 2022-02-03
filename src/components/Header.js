@@ -34,7 +34,7 @@ export default function Header(){
       }
 
       return (
-          <div style={main} className="min-vh-100">
+          <div style={main}>
               <Navbar currentPage ={page} handlePageChange={handlePageChange} />
               {renderPage()}
 
